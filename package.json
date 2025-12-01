@@ -1,18 +1,19 @@
 {
   "name": "qrcodegen",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "QR Code generator and invitation webpage system",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "generate": "node generator.js",
+    "test": "echo \"No tests yet\""
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["qrcode", "invitation", "express", "generator"],
+  "author": "Oluwafunmilayo Oluwatobiloba",
   "license": "ISC",
   "dependencies": {
     "csv-parser": "^3.2.0",
     "express": "^5.1.0",
-    "qrcode": "^1.5.4",
-    "uuid": "^13.0.0"
+    "qrcode": "^1.5.4"
   }
 }
