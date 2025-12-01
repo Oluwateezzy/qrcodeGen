@@ -17,7 +17,7 @@ fs.createReadStream("names.csv")
     for (const name of names) {
       const id = randomUUID();
 
-      const url = `https://your-railway-url.up.railway.app/invite/${id}`;
+      const url = `https://qrcodegen-production-d9d5.up.railway.app/invite/${id}`;
 
       await QRCode.toFile(`qrcodes/${name}.png`, url);
 
